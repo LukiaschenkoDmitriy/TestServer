@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "MR8HKfGGvN60akdi43VgZ0Xa+UoVtSd+OYcf1BEqG6zOdjWy740zDYjsdVMKfGosk2ogP8ZCN6fyRywpN/vtMQ==",
+  "success": true,
+  "projectFilePath": "/home/dmytrii/RiderProjects/HelloWorldServer/HelloWorldServer/HelloWorldServer.csproj",
+  "expectedPackageFiles": [
+    "/home/dmytrii/.nuget/packages/messagepack/3.0.54-alpha/messagepack.3.0.54-alpha.nupkg.sha512",
+    "/home/dmytrii/.nuget/packages/messagepack.annotations/3.0.54-alpha/messagepack.annotations.3.0.54-alpha.nupkg.sha512",
+    "/home/dmytrii/.nuget/packages/microsoft.net.stringtools/17.9.5/microsoft.net.stringtools.17.9.5.nupkg.sha512"
+  ],
+  "logs": []
+}

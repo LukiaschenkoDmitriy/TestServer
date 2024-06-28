@@ -1,0 +1,178 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "MessagePack/3.0.54-alpha": {
+        "type": "package",
+        "dependencies": {
+          "MessagePack.Annotations": "3.0.54-alpha",
+          "Microsoft.NET.StringTools": "17.9.5"
+        },
+        "compile": {
+          "lib/net8.0/MessagePack.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/MessagePack.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MessagePack.Annotations/3.0.54-alpha": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MessagePack.Annotations.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MessagePack.Annotations.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.NET.StringTools/17.9.5": {
+        "type": "package",
+        "compile": {
+          "ref/net8.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.NET.StringTools.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MessagePack/3.0.54-alpha": {
+      "sha512": "cSAPiO8A7Lp51rEROBb5Npe4Jp/Q8UT+rb9MDaUW4eg/dvweHYHSJvqpLJFYV7NaP5MmdwUs6jNKi5ZXywVqAQ==",
+      "type": "package",
+      "path": "messagepack/3.0.54-alpha",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/MessagePack.dll",
+        "lib/net6.0/MessagePack.xml",
+        "lib/net8.0/MessagePack.dll",
+        "lib/net8.0/MessagePack.xml",
+        "lib/netstandard2.0/MessagePack.dll",
+        "lib/netstandard2.0/MessagePack.xml",
+        "messagepack.3.0.54-alpha.nupkg.sha512",
+        "messagepack.nuspec"
+      ]
+    },
+    "MessagePack.Annotations/3.0.54-alpha": {
+      "sha512": "KUDOe8K2nH8kVVOF3Pp66d0jSs33Jl6C94n1j3aVOlp0j8ysFphuT6bh7HJnju7GSI/z10A5C8tKiguOJcmEoQ==",
+      "type": "package",
+      "path": "messagepack.annotations/3.0.54-alpha",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/MessagePack.Annotations.dll",
+        "lib/netstandard2.0/MessagePack.Annotations.xml",
+        "messagepack.annotations.3.0.54-alpha.nupkg.sha512",
+        "messagepack.annotations.nuspec"
+      ]
+    },
+    "Microsoft.NET.StringTools/17.9.5": {
+      "sha512": "C/oPRnjcIZBRzcpl1V06R1eEMCxOGt6mIm+8ioyblELgJEXLM8XjUPuCwljMO52VetsHw54xMcYwU8UEeHEIEg==",
+      "type": "package",
+      "path": "microsoft.net.stringtools/17.9.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "MSBuild-NuGet-Icon.png",
+        "README.md",
+        "lib/net472/Microsoft.NET.StringTools.dll",
+        "lib/net472/Microsoft.NET.StringTools.pdb",
+        "lib/net472/Microsoft.NET.StringTools.xml",
+        "lib/net8.0/Microsoft.NET.StringTools.dll",
+        "lib/net8.0/Microsoft.NET.StringTools.pdb",
+        "lib/net8.0/Microsoft.NET.StringTools.xml",
+        "lib/netstandard2.0/Microsoft.NET.StringTools.dll",
+        "lib/netstandard2.0/Microsoft.NET.StringTools.pdb",
+        "lib/netstandard2.0/Microsoft.NET.StringTools.xml",
+        "microsoft.net.stringtools.17.9.5.nupkg.sha512",
+        "microsoft.net.stringtools.nuspec",
+        "notices/THIRDPARTYNOTICES.txt",
+        "ref/net472/Microsoft.NET.StringTools.dll",
+        "ref/net472/Microsoft.NET.StringTools.xml",
+        "ref/net8.0/Microsoft.NET.StringTools.dll",
+        "ref/net8.0/Microsoft.NET.StringTools.xml",
+        "ref/netstandard2.0/Microsoft.NET.StringTools.dll",
+        "ref/netstandard2.0/Microsoft.NET.StringTools.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "MessagePack >= 3.0.54-alpha"
+    ]
+  },
+  "packageFolders": {
+    "/home/dmytrii/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/dmytrii/RiderProjects/HelloWorldServer/HelloWorldServer/HelloWorldServer.csproj",
+      "projectName": "HelloWorldServer",
+      "projectPath": "/home/dmytrii/RiderProjects/HelloWorldServer/HelloWorldServer/HelloWorldServer.csproj",
+      "packagesPath": "/home/dmytrii/.nuget/packages/",
+      "outputPath": "/home/dmytrii/RiderProjects/HelloWorldServer/HelloWorldServer/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/dmytrii/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "MessagePack": {
+            "target": "Package",
+            "version": "[3.0.54-alpha, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

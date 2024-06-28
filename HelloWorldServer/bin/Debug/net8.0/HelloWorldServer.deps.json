@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HelloWorldServer/1.0.0": {
+        "dependencies": {
+          "MessagePack": "3.0.54-alpha"
+        },
+        "runtime": {
+          "HelloWorldServer.dll": {}
+        }
+      },
+      "MessagePack/3.0.54-alpha": {
+        "dependencies": {
+          "MessagePack.Annotations": "3.0.54-alpha",
+          "Microsoft.NET.StringTools": "17.9.5"
+        },
+        "runtime": {
+          "lib/net8.0/MessagePack.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.54.15744"
+          }
+        }
+      },
+      "MessagePack.Annotations/3.0.54-alpha": {
+        "runtime": {
+          "lib/netstandard2.0/MessagePack.Annotations.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.54.15744"
+          }
+        }
+      },
+      "Microsoft.NET.StringTools/17.9.5": {
+        "runtime": {
+          "lib/net8.0/Microsoft.NET.StringTools.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "17.9.5.7608"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HelloWorldServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MessagePack/3.0.54-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cSAPiO8A7Lp51rEROBb5Npe4Jp/Q8UT+rb9MDaUW4eg/dvweHYHSJvqpLJFYV7NaP5MmdwUs6jNKi5ZXywVqAQ==",
+      "path": "messagepack/3.0.54-alpha",
+      "hashPath": "messagepack.3.0.54-alpha.nupkg.sha512"
+    },
+    "MessagePack.Annotations/3.0.54-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KUDOe8K2nH8kVVOF3Pp66d0jSs33Jl6C94n1j3aVOlp0j8ysFphuT6bh7HJnju7GSI/z10A5C8tKiguOJcmEoQ==",
+      "path": "messagepack.annotations/3.0.54-alpha",
+      "hashPath": "messagepack.annotations.3.0.54-alpha.nupkg.sha512"
+    },
+    "Microsoft.NET.StringTools/17.9.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C/oPRnjcIZBRzcpl1V06R1eEMCxOGt6mIm+8ioyblELgJEXLM8XjUPuCwljMO52VetsHw54xMcYwU8UEeHEIEg==",
+      "path": "microsoft.net.stringtools/17.9.5",
+      "hashPath": "microsoft.net.stringtools.17.9.5.nupkg.sha512"
+    }
+  }
+}
